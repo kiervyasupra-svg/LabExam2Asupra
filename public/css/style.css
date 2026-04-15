@@ -1,0 +1,488 @@
+/* =========================
+   GLOBAL BACKGROUND
+========================= */
+body {
+    background-color: #f1f5f9;
+    font-family: Arial, sans-serif;
+}
+
+/* =========================
+   CONTAINER CARD
+========================= */
+.custom-container {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   TITLES
+========================= */
+.custom-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0b9e29;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+.btn-green {
+    background-color: #22c55e;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+}
+
+.btn-green:hover {
+    background-color: #16a34a;
+}
+
+.btn-blue {
+    background-color: #3b82f6;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-red {
+    background-color: #ef4444;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* =========================
+   TABLE DESIGN
+========================= */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border: 2px solid #000;
+}
+
+.custom-table th,
+.custom-table td {
+    border: 2px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.custom-table th {
+    background-color: #22c55e;
+    color: white;
+}
+
+.custom-table tr:hover {
+    background-color: #f1f5f9;
+}
+
+/* =========================
+   FORMS
+========================= */
+.custom-form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: #22c55e;
+    outline: none;
+}
+
+/* =========================
+   BADGES (PAYMENT STATUS)
+========================= */
+.badge-paid {
+    background-color: #22c55e;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.badge-unpaid {
+    background-color: #ef4444;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+/* =========================
+   RICE MODULE
+========================= */
+
+.rice-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.rice-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #16a34a;
+}
+
+.rice-btn {
+    background-color: #22c55e;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.rice-btn:hover {
+    background-color: #15803d;
+}
+/* =========================
+   ORDERS MODULE
+========================= */
+
+.order-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #1ca120;
+}
+
+.order-btn {
+    background-color: #3b82f6;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.order-btn:hover {
+    background-color: #1d4ed8;
+}
+
+.order-summary {
+    background: #e0f2fe;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/* =========================
+   PAYMENTS MODULE
+========================= */
+
+.payment-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #0b9e29;
+}
+
+.payment-btn {
+    background-color: #8b5cf6;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.payment-btn:hover {
+    background-color: #6d28d9;
+}
+
+.status-paid {
+    background-color: #22c55e;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.status-unpaid {
+    background-color: #ef4444;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+/* =========================
+   RICE MODULE DESIGN
+========================= */
+
+/* Page title */
+.rice-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #16a34a;
+    margin-bottom: 15px;
+}
+
+/* Header layout (title + button) */
+.rice-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Add Rice button */
+.rice-btn {
+    background-color: #22c55e;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.rice-btn:hover {
+    background-color: #15803d;
+}
+
+/* Container card */
+.rice-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Table styling */
+.rice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: 2px solid #000;
+}
+
+.rice-table th,
+.rice-table td {
+    border: 2px solid #000;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Table header */
+.rice-table th {
+    background-color: #22c55e;
+    color: white;
+}
+
+/* Hover effect */
+.rice-table tr:hover {
+    background-color: #f0fdf4;
+}
+
+/* Action buttons */
+.rice-actions a {
+    margin: 0 5px;
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.rice-delete {
+    color: #ef4444;
+    font-weight: bold;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Form styling (Add/Edit Rice) */
+.rice-form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.rice-form-group {
+    margin-bottom: 15px;
+}
+
+.rice-form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.rice-form-group input,
+.rice-form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+.rice-form-group input:focus,
+.rice-form-group textarea:focus {
+    border-color: #22c55e;
+    outline: none;
+}
+
+/* Save button */
+.rice-submit {
+    background-color: #22c55e;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.rice-submit:hover {
+    background-color: #16a34a;
+}
+/* =========================
+   CREATE ORDER PAGE DESIGN
+========================= */
+
+/* Title */
+.order-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+/* Container */
+.order-container {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Form */
+.order-form {
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Form group */
+.order-group {
+    margin-bottom: 18px;
+}
+
+/* Labels */
+.order-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #1e3a8a;
+}
+
+/* Inputs & Select */
+.order-group select,
+.order-group input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cbd5f5;
+    border-radius: 6px;
+}
+
+/* Focus effect */
+.order-group select:focus,
+.order-group input:focus {
+    border-color: #2563eb;
+    outline: none;
+}
+
+/* Button */
+.order-submit {
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.order-submit:hover {
+    background-color: #1d4ed8;
+}
+/* =========================
+   EDIT RICE PAGE DESIGN
+========================= */
+
+.rice-form-container {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.rice-form-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #16a34a;
+    margin-bottom: 15px;
+}
+
+/* Form group */
+.rice-group {
+    margin-bottom: 15px;
+}
+
+.rice-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #166534;
+}
+
+/* Inputs */
+.rice-group input,
+.rice-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #bbf7d0;
+    border-radius: 6px;
+}
+
+/* Focus */
+.rice-group input:focus,
+.rice-group textarea:focus {
+    border-color: #22c55e;
+    outline: none;
+}
+
+/* Button */
+.rice-update-btn {
+    background-color: #22c55e;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.rice-update-btn:hover {
+    background-color: #15803d;
+}
