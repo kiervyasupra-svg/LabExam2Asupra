@@ -13,7 +13,7 @@ use App\Http\Controllers\PaymentController;
 */
 
 Route::get('/', function () {
-    return redirect()->route('rice.index');
+    return redirect('/rice');
 });
 
 // Dashboard (Breeze default)
